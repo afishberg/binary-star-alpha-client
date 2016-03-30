@@ -1,5 +1,4 @@
 apply plugin: 'java'
-// apply plugin: 'scala'
 apply plugin: 'application'
 
 // Require Java 8
@@ -12,7 +11,6 @@ repositories {
 
 dependencies {
 	compile 'org.processing:core:3.0.1'
-//  compile 'org.scala-lang:scala-library:2.11.1'
 }
 
-mainClassName = 'binarystar.Main'
+mainClassName = 'binarystar.Main' //'simpleclient.SimpleClient'
