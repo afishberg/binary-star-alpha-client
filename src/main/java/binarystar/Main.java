@@ -9,8 +9,6 @@ public class Main extends PApplet {
 	public static final int FRAME_RATE = 30;
 
 	public static PApplet Processing;
-
-	private static float prevTime;
 	
 	public Main() {
 		Processing = this;
